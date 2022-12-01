@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35004df3f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+            <a class="link" href="angles.html">Triangle or not?</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="quiz.html">Quiz</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="hypotenuse.html">Hypotenuse</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="area.html">Area</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container-center">
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third triangle for the triangle where angle1 = 45 and angle2 = 45?</p>
+                <label class="quiz-label"><input type="radio" name="question-1" value="45">45</label>
+                <label class="quiz-label"><input type="radio" name="question-1" value="60">60</label>
+                <label class="quiz-label"><input type="radio" name="question-1" value="90">90</label>
+            </div>
+            <div class="question-container">
+                <p>If a traingle has an angle of 90 degrees, what is it called?</p>
+                <label class="quiz-label"><input type="radio" name="question-2" value="Acute">Acute</label>
+                <label class="quiz-label"><input type="radio" name="question-2" value="Obtuse">Obtuse</label>
+                <label class="quiz-label"><input type="radio" name="question-2" value="Right Angled">Right Angled</label>
+            </div>
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? </p>
+                <label class="quiz-label"><input type="radio" name="question-3" value="Acute">Acute</label>
+                <label class="quiz-label"><input type="radio" name="question-3" value="Obtuse">Obtuse</label>
+                <label class="quiz-label"><input type="radio" name="question-3" value="Right Angled">Right Angled</label>
+            </div>
+            <div class="question-container">
+                <p>Which of the following can form a right angled triangle?</p>
+                <label class="quiz-label"><input type="radio" name="question-4" value="4,3,5">4,3,5</label>
+                <label class="quiz-label"><input type="radio" name="question-4" value="8,6,10">8,6,12</label>
+                <label class="quiz-label"><input type="radio" name="question-4" value="4,7,8">4,7,8</label>
+            </div>
+            <div class="question-container">
+                <p>The perimeter of scalene triangle with sides a, b, c is</p>
+                <label class="quiz-label"><input type="radio" name="question-5" value="a+b+c">a+b+c</label>
+                <label class="quiz-label"><input type="radio" name="question-5" value="2abc">2abc</label>
+                <label class="quiz-label"><input type="radio" name="question-5" value="2a">2a</label>
+            </div>
+        </form>
+        <button id="submit-answers">Submit Answers</button>
+        <h2 id="output"></h2>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">Connect with me on:</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/Shruti-2303"><i class="fab fa-github fa-sz"></i></a>
+          </li>
+          
+          <li class="list-item-inline">
+            <a class="link" href="https://www.linkedin.com/in/shruti-sharma-2303/"><i class="fab fa-linkedin fa-sz"></i></a>
+          </li>
+        </ul>
+      </footer>
+    <script src="quiz.js"></script>
+</body>
+</html>
